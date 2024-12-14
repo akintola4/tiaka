@@ -21,7 +21,7 @@ export default function Hero() {
                     <div className="flex flex-col w-full items-center bg-gradient-to-t from-violet-600 via-violet-950 to-black dark:from-violet-700 dark:via-violet-50 dark:to-violet-300 bg-clip-text text-transparent justify-center gap-2">
                         <h4 className="font-extrabold items-center lg:text-6xl  md:text-6xl text-2xl w-full xl:w-8/12 ">Unlock the</h4>
                         <h4 className="font-extrabold flex flex-row items-center justify-center gap-2 mx-auto lg:text-6xl md:text-6xl text-2xl w-full xl:w-8/12 ">
-                            future with<BsStars className="shadow-[0_-1px_30px_rgba(210,183,255,100)] bg-gradient-to-t from-violet-100 via-violet-100 to-violet-100 dark:from-violet-400 dark:via-violet-50 dark:to-violet-200 rounded-full p-3 text-5xl items-center text-stars" /> AI.</h4>
+                            future with<BsStars className="scale-75 md:scale-100 shadow-[0_-1px_30px_rgba(210,183,255,100)] bg-gradient-to-t from-violet-100 via-violet-100 to-violet-100 dark:from-violet-400 dark:via-violet-50 dark:to-violet-200 rounded-full p-3 text-5xl items-center text-stars" /> AI.</h4>
                     </div>
 
                     <p className="font-normal text-sm md:text-xl xl:w-7/12 text-ParagraphText dark:text-gray-300">Elevate your site’s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.</p>
