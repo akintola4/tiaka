@@ -68,8 +68,8 @@ const statscard = statsData.map(statsinfo => (
       </div>
     </section>
     <section id="developers" className="px-5 xl:px-10 flex flex-col justify-center items-center gap-3 md:gap-6" >
-      <div className="flex flex-row gap-2 md:w-10/12 lg:w-11/12">
-      <h4 className="font-extrabold items-center text-lg lg:text-4xl  md:text-2xl w-11/12 lg:w-10/12    ">Boost visibility and grow with SEO  <span className="font-extrabold items-center lg:text-4xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">that attracts traffic and connects you to your audience. </span>
+      <div className="flex flex-row gap-2 lg:w-11/12">
+      <h4 className="font-extrabold items-center text-lg lg:text-3xl  md:text-2xl   ">Boost visibility and grow with SEO  <span className="font-extrabold items-center lg:text-3xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">that attracts traffic and connects you to your audience. </span>
       </h4>
       </div>
 
@@ -80,7 +80,7 @@ const statscard = statsData.map(statsinfo => (
     </section>
     <section id="pricing" className="px-5 md:px-10 mx-auto flex flex-col justify-center items-center gap-3 md:gap-10" data-aos="fade-right">
     <div className="flex flex-row gap-2">
-      <h4 className="font-extrabold items-center mx-auto lg:text-4xl  md:text-2xl text-lg  ">Using Tiaka gets easier - <span className="font-extrabold items-center lg:text-4xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">Sustainable and future-focused solutions. </span>
+      <h4 className="font-extrabold items-center mx-auto lg:text-3xl  md:text-2xl text-lg  ">Using Tiaka gets easier - <span className="font-extrabold items-center lg:text-3xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">Sustainable and future-focused solutions. </span>
       </h4>
       </div> 
       <div className="grid grid-cols-1 md:grid-cols-2  gap-4 md:gap-10 xl:w-10/12 mx-auto justify-center items-center">
