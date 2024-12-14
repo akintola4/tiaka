@@ -61,20 +61,20 @@ const statscard = statsData.map(statsinfo => (
     <Hero />
     <section id="product" className="px-5 md:px-10 flex flex-col justify-center items-center gap-3 md:gap-6"   data-aos="fade-right">
     <h4 className="font-extrabold items-center lg:text-4xl  md:text-2xl text-xl  ">Built for website success</h4>
-      <p className="font-normal text-sm md:text-md lg:text-xl  xl:w-8/12 text-center text-ParagraphText dark:text-gray-300">Bring your ideas to life with Tiaka—offering a secure, fast, and reliable platform to create new experiences or elevate your existing website.</p>
+      <p className="font-normal text-sm md:text-md lg:text-xl lg:w-10/12  xl:w-8/12 text-center text-ParagraphText dark:text-gray-300">Bring your ideas to life with Tiaka—offering a secure, fast, and reliable platform to create new experiences or elevate your existing website.</p>
             
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-2 md:gap-6">
       {product}
       </div>
     </section>
     <section id="developers" className="px-5 xl:px-10 flex flex-col justify-center items-center gap-3 md:gap-6" >
-      <div className="flex flex-row gap-2 md:w-10/12">
-      <h4 className="font-extrabold items-center text-lg lg:text-4xl  md:text-2xl   ">Boost visibility and grow with SEO  <span className="font-extrabold items-center lg:text-4xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">that attracts traffic and connects you to your audience. </span>
+      <div className="flex flex-row gap-2 md:w-10/12 lg:w-11/12">
+      <h4 className="font-extrabold items-center text-lg lg:text-4xl  md:text-2xl w-11/12 lg:w-10/12    ">Boost visibility and grow with SEO  <span className="font-extrabold items-center lg:text-4xl  md:text-2xl text-sm text-ParagraphText dark:text-gray-300 ">that attracts traffic and connects you to your audience. </span>
       </h4>
       </div>
 
             
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 w-11/12 lg:w-10/12 md:gap-10  xl:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 w-11/12 lg:w-11/12 md:gap-10 lg:gap-8  xl:gap-12">
         {devcard}
       </div>
     </section>
