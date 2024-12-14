@@ -14,7 +14,7 @@ export default function Sub() {
         //         <button className="bg-gray-900 p-2 px-4 rounded-lg text-white ">Sign up</button>
         //     </div>
         // </section>
-        <section className="relative p-5 md:mx-4 lg:p-20 xl:mx-32 bg-gray-950 text-white rounded-2xl"  data-aos="zoom-in" >
+        <section className="relative p-5 mx-2 md:mx-4 lg:p-20 xl:mx-32 bg-gray-950 text-white rounded-2xl"  data-aos="zoom-in" >
             <img
                 src="img/sub.webp"
                 className="absolute inset-0 object-cover dark:opacity-90 rounded-xl md:w-full h-full"
@@ -27,7 +27,7 @@ export default function Sub() {
                     </div>
                     <div className="bg-gray-100 rounded-lg flex md:max-w-md md:mx-auto md:w-8/12 justify-between flex-row  md:gap-10 text-black p-2 px-4">
                         <input type="email" placeholder="enter your email" className="bg-transparent w-6/12 md:w-full" />
-                        <button className="bg-btn-base-dark p-2 px-4 rounded-lg text-white ">Subscribe</button>
+                        <button className="bg-btn-base-dark p-2 md:p-2 md:px-4 rounded-lg text-white ">Subscribe</button>
                     </div>
 
                 </div>
