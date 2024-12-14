@@ -22,7 +22,7 @@ Designers
 - webp(main for large images)
 
 # Font
-- 
+- INTER
 
 ## libs
 - tailwind (npm install -D tailwindcss postcss autoprefixer npx tailwindcss init -p)
