@@ -136,7 +136,7 @@ export default function Nav() {
 
                 <div className="nav-3  xl:w-4/12 flex items-end justify-end">
                     <div className=" flex-row hidden gap-3 lg:flex items-center ">
-                    <button  name="get started" id='get started' className='px-4 py-2 hover:text-primaryColor hover:bg-white hover:bg-DarkprimaryColor border border-transparent hover:border-primaryColor bg-btn-base-light text-white hover:text-btn dark:bg-btn-base-dark dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:hover:border-btn-base-dark    transition ease-in-out  delay-150 duration-300  rounded-lg'>Get started</button>
+                    <button  name="get started" id='get started' className='px-4 py-2 hover:text-primaryColor hover:bg-white  border border-transparent hover:border-primaryColor bg-btn-base-light text-white hover:text-btn dark:bg-btn-base-dark dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:hover:border-btn-base-dark    transition ease-in-out  delay-150 duration-300  rounded-lg'>Get started</button>
 
 
                        
@@ -155,16 +155,16 @@ export default function Nav() {
                 <div className="gap-20 mx-auto">
                 <div className="px-5 py-2 transition duration-300 dark:text-white">
                 <a
-                            href="#services" // Use the section ID
+                            href="#product" // Use the section ID
                             className="flex hover:text-primaryColor flex-row gap-2 items-center"
                             onClick={(e) => {
                                 e.preventDefault();
-                                document.getElementById('services')?.scrollIntoView({
+                                document.getElementById('product')?.scrollIntoView({
                                     behavior: 'smooth'
                                 });
                             }}
                         >
-                             Services
+                             Product
                         </a>
                         </div>
                         
@@ -198,32 +198,18 @@ export default function Nav() {
                        </div>
                        <div className="px-5 py-2 transition duration-300 dark:text-white">
                        <a
-                            href="#about" // Use the section ID
+                            href="#developers" // Use the section ID
                             className="flex hover:text-primaryColor flex-row gap-2 items-center"
                             onClick={(e) => {
                                 e.preventDefault();
-                                document.getElementById('about')?.scrollIntoView({
+                                document.getElementById('developers')?.scrollIntoView({
                                     behavior: 'smooth'
                                 });
                             }}
                         >
-                             About
+                             Developers
                         </a>
                        </div>
-                        <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <a
-                            href="#fqa" // Use the section ID
-                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                document.getElementById('fqa')?.scrollIntoView({
-                                    behavior: 'smooth'
-                                });
-                            }}
-                        >
-                             FAQ
-                        </a>
-                        </div>
                         
                         <div className="px-5 py-2 transition duration-300 dark:text-white">
                         <div className=" flex-row  gap-4 flex items-center ">

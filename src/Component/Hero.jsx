@@ -27,7 +27,7 @@ export default function Hero() {
                     <p className="font-normal text-sm md:text-xl xl:w-7/12 text-ParagraphText dark:text-gray-300">Elevate your site’s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.</p>
                 </div>
                 <div className="flex flex-col pb-10">
-                    <button name="get started" id='get started' className='px-4 py-2 shadow-[0_-1px_60px_rgba(58,58,58,6)] hover:shadow-[0_-10px_80px_rgba(210,183,255,100)] dark:hover:shadow-[0_-10px_80px_rgba(210,183,255,100)] dark:shadow-[0_-1px_60px_rgba(58,58,58,6)] hover:text-primaryColor hover:bg-white  border border-transparent hover:border-primaryColor bg-btn-base-light text-white hover:text-btn dark:bg-btn-base-dark dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:hover:border-btn-base-dark    transition ease-in-out  delay-150 duration-300  rounded-lg'>Start Free Trial</button>
+                    <button name="get started" id='get started' className='px-4 py-2 shadow-[0_-1px_25px_rgba(58,58,58,100)] md:shadow-[0_-1px_60px_rgba(58,58,58,6)] hover:shadow-[0_-10px_80px_rgba(210,183,255,100)] dark:hover:shadow-[0_-10px_80px_rgba(210,183,255,100)] dark:shadow-[0_-1px_60px_rgba(58,58,58,6)] hover:text-primaryColor hover:bg-white  border border-transparent hover:border-primaryColor bg-btn-base-light text-white hover:text-btn dark:bg-btn-base-dark dark:text-gray-50 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:hover:border-btn-base-dark    transition ease-in-out  delay-150 duration-300  rounded-lg'>Start Free Trial</button>
 
                 </div>
 
