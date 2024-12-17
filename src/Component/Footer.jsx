@@ -3,7 +3,7 @@ import { FiFacebook,FiInstagram } from "react-icons/fi";
 
 export default function Footer() {
     return (
-        <footer id="footer" name="footer" className="pt-10 w-full flex-end bottom-0  " >
+        <footer id="footer" name="footer" className="md:pt-10 w-full flex-end bottom-0  " >
             <div className="relative">
                 <div className="relative flex   flex-col gap-5 md:gap-10  ">
                     <div className="flex flex-col px-5 gap-5 md:gap-10 md:mx-10 lg:mx-0 lg:px-0 xl:gap-32 xl:justify-between   lg:flex-row ">
