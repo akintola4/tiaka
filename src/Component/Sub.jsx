@@ -26,7 +26,7 @@ export default function Sub() {
                         <h4 className="text-1xl md:text-4xl lg:text-6xl font-bold ">AI-driven SEO for everyone.</h4>
                     </div>
                     <div className="bg-gray-100 rounded-lg flex md:max-w-md md:mx-auto md:w-8/12 justify-between flex-row  md:gap-10 text-black p-2 px-4">
-                        <input type="email" placeholder="enter your email" className="bg-transparent w-6/12 md:w-full" />
+                        <input type="email" placeholder="enter your email" className="bg-transparent outline-none w-6/12 md:w-full" />
                         <button className="bg-btn-base-dark p-2 md:p-2 md:px-4 rounded-lg text-white ">Subscribe</button>
                     </div>
 
