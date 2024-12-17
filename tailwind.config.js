@@ -13,6 +13,9 @@ export default  {
       backgroundImage: {
         "hero-bg": "url('img/hero-bg.svg')",
       },
+      boxShadow: {
+        'autofill': '0 0 0 1000px rgba(220, 237, 247, 0.5) inset', // Adjust the color and opacity as needed
+      },
       screens: {
         sm: "480px",
         md: "768px",
